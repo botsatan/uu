@@ -10,11 +10,11 @@ cl.login(qr=True)
 cl.loginResult()
 
 ki = ETMJ.LINE()
-ki.login(token="EksOCn8McDmf4Zz9rbra.kJiN4J7/JnKI6Rrya+z9cG.PTfoVDcXG0YdzQrMKTqiNJjXIsxX+6sSshMcAXqGXlU=")
+ki.login(qr=True)
 ki.loginResult()
 
 ki2 = ETMJ.LINE()
-ki2.login(token="EkdvEmubYxKsTKk6Yzq5.99Isk1ybySL0griEpo/JHq.29vaUBd+JE2FkfWl2sR5Y8KeusXAzhlfOGFzS1qrQC4=")
+ki2.login(qr=True)
 ki2.loginResult()
 reload(sys)
 sys.setdefaultencoding('utf-8')
